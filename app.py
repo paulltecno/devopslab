@@ -5,3 +5,4 @@ app = Flask(__name__)
 @app.route("/")
 def pagina_inicial():
     return "Aplicação simnples em Python com unit test"
+    return "Como nosso teste unitário valida exatamente se a mensagem é a que estamos esperando, o teste unitário vai falhar por ter ficado com a mensagem antiga"
